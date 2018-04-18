@@ -752,7 +752,7 @@ NoConn ~ 10950 2250
 NoConn ~ 10250 2900
 NoConn ~ 9700 5300
 NoConn ~ 9000 4650
-NoConn ~ 9000 4550
+NoConn ~ 9000 4350
 Text Notes 10100 3400 0    50   ~ 0
 (bottom)
 Text Notes 10100 1000 0    50   ~ 0
@@ -761,7 +761,7 @@ Text Label 9000 4150 2    50   ~ 0
 S18
 Text Label 9000 4250 2    50   ~ 0
 S17
-Text Label 9000 4350 2    50   ~ 0
+Text Label 9000 4550 2    50   ~ 0
 S16
 Text Label 10950 1950 0    50   ~ 0
 S18
