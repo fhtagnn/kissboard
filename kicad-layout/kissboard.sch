@@ -246,31 +246,25 @@ F 3 "" H 10000 1950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 9550 2900 3    50   ~ 0
-S9
-Text Label 9650 2900 3    50   ~ 0
-S14
-Text Label 9750 2900 3    50   ~ 0
-S17
-Text Label 9850 2900 3    50   ~ 0
-S3
-Text Label 9950 2900 3    50   ~ 0
-S8
-Text Label 10050 2900 3    50   ~ 0
-S13
-Text Label 10150 2900 3    50   ~ 0
-S16
-Text Label 10550 2900 3    50   ~ 0
-S12
-Text Label 10450 2900 3    50   ~ 0
 S7
+Text Label 9650 2900 3    50   ~ 0
+S6
+Text Label 9750 2900 3    50   ~ 0
+S13
+Text Label 9950 2900 3    50   ~ 0
+S14
 Text Label 10350 2900 3    50   ~ 0
-S2
+S15
+Text Label 10450 2900 3    50   ~ 0
+S12
+Text Label 10550 2900 3    50   ~ 0
+S11
 Text Label 9050 1450 2    50   ~ 0
-S20
+S3
 Text Label 9050 2150 2    50   ~ 0
-S10
+S8
 Text Label 9050 2250 2    50   ~ 0
-S5
+S9
 $Comp
 L power:GND #PWR0101
 U 1 1 5ABD0762
@@ -514,7 +508,7 @@ NoConn ~ 9050 1950
 NoConn ~ 9050 2050
 NoConn ~ 10950 2450
 Text Label 9450 2900 3    50   ~ 0
-S4
+S10
 $Comp
 L core51822b:Core51822B U2
 U 1 1 5AC020E1
@@ -526,32 +520,28 @@ F 3 "" H 9950 4350 60  0001 C CNN
 	1    9950 4250
 	1    0    0    -1  
 $EndComp
-Text Label 9800 5300 3    50   ~ 0
-S16
-Text Label 9900 5300 3    50   ~ 0
-S13
-Text Label 10000 5300 3    50   ~ 0
-S8
-Text Label 10100 5300 3    50   ~ 0
-S3
-Text Label 10200 5300 3    50   ~ 0
-S17
-Text Label 10300 5300 3    50   ~ 0
-S14
-Text Label 10400 5300 3    50   ~ 0
-S9
-Text Label 10500 5300 3    50   ~ 0
-S4
-Text Label 10900 4650 0    50   ~ 0
-S5
-Text Label 10900 4550 0    50   ~ 0
-S10
-Text Label 10900 4450 0    50   ~ 0
-S15
 Text Label 9400 5300 3    50   ~ 0
+S11
+Text Label 9500 5300 3    50   ~ 0
 S12
 Text Label 9600 5300 3    50   ~ 0
-S2
+S15
+Text Label 10000 5300 3    50   ~ 0
+S14
+Text Label 10200 5300 3    50   ~ 0
+S13
+Text Label 10300 5300 3    50   ~ 0
+S6
+Text Label 10400 5300 3    50   ~ 0
+S7
+Text Label 10500 5300 3    50   ~ 0
+S10
+Text Label 10900 4650 0    50   ~ 0
+S9
+Text Label 10900 4550 0    50   ~ 0
+S8
+Text Label 10900 4450 0    50   ~ 0
+S1
 $Comp
 L power:GND #PWR0105
 U 1 1 5AC020FB
@@ -596,13 +586,11 @@ SWDIO
 Text Label 10900 4150 0    50   ~ 0
 SWCLK
 Text Label 10900 3850 0    50   ~ 0
-S20
+S3
 Text Label 10900 3750 0    50   ~ 0
 GND
 Text Label 10900 4750 0    50   ~ 0
 GND
-Text Label 9500 5300 3    50   ~ 0
-S7
 NoConn ~ 9000 4450
 Text Label 10950 1350 0    50   ~ 0
 GND
@@ -734,41 +722,57 @@ S19
 Wire Wire Line
 	5000 3150 4850 3150
 Text Label 9000 3850 2    50   ~ 0
-S11
+S21
 Text Label 9000 3950 2    50   ~ 0
-S6
+S20
 Text Label 9000 4050 2    50   ~ 0
-S1
+S19
 Text Label 10950 1450 0    50   ~ 0
-S11
+S21
 Text Label 10950 1550 0    50   ~ 0
-S6
+S20
 Text Label 10950 1650 0    50   ~ 0
-S1
-NoConn ~ 9000 4350
+S19
 Text Label 10900 3950 0    50   ~ 0
-S21
+S4
 Text Label 10900 4050 0    50   ~ 0
-S19
+S5
 Text Label 9050 1550 2    50   ~ 0
-S21
+S4
 Text Label 9050 1650 2    50   ~ 0
-S19
+S5
 Text Label 10900 4350 0    50   ~ 0
-S18
+S2
 NoConn ~ 10900 4850
 Text Label 9050 1750 2    50   ~ 0
-S18
+S2
 Text Label 9050 1850 2    50   ~ 0
-S15
+S1
 NoConn ~ 10950 2250
 NoConn ~ 10250 2900
 NoConn ~ 9700 5300
 NoConn ~ 9000 4650
-NoConn ~ 9000 4550
-NoConn ~ 10950 2150
-NoConn ~ 9000 4150
-NoConn ~ 9000 4250
-NoConn ~ 10950 2050
-NoConn ~ 10950 1950
+NoConn ~ 9000 4350
+Text Notes 10100 3400 0    50   ~ 0
+(bottom)
+Text Notes 10100 1000 0    50   ~ 0
+(top)
+Text Label 9000 4150 2    50   ~ 0
+S18
+Text Label 9000 4250 2    50   ~ 0
+S17
+Text Label 9000 4550 2    50   ~ 0
+S16
+Text Label 10950 1950 0    50   ~ 0
+S18
+Text Label 10950 2050 0    50   ~ 0
+S17
+Text Label 10950 2150 0    50   ~ 0
+S16
+NoConn ~ 9800 5300
+NoConn ~ 9900 5300
+NoConn ~ 10100 5300
+NoConn ~ 9850 2900
+NoConn ~ 10050 2900
+NoConn ~ 10150 2900
 $EndSCHEMATC
