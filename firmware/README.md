@@ -4,7 +4,7 @@ Firmware for Nordic MCUs used in the kissboard Keyboard that is a derivative of 
 This folder contains sources buildable with the Nordic SDK. To ease building under Windows a Dockerfile is included in the root directory of this repository. It already includes all the steps below including the modification of the SDK file. Usage is very simple if docker is installed. Open a console (Powershell) and type
 
 ```docker
-docker run -it -v C:\PATH\kissboard\firmware:/work/kissboard/:rw kissbuild
+docker run -it -v C:\PATH\kissboard\firmware:/work/kissboard/:rw fhtagnn/kissboard_firmware
 ```
 
 PATH should point to your local copy of the repository. Then 
