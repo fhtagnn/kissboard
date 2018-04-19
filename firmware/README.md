@@ -51,12 +51,12 @@ GNU_INSTALL_ROOT := /usr/
 ## Clone repository
 Inside nRF5_SDK_11/
 ```
-git clone https://github.com/reversebias/kissboard
+git clone https://github.com/fhtagnn/kissboard
 ```
 
 ## Install udev rules
 ```
-sudo cp kissboard/49-stlinkv2.rules /etc/udev/rules.d/
+sudo cp kissboard/firmware/49-stlinkv2.rules /etc/udev/rules.d/
 ```
 Plug in, or replug in the programmer after this.
 
@@ -72,7 +72,7 @@ It's best to remove the battery during long sessions of debugging, as charging n
 
 Launch a debugging session with:
 ```
-openocd -f kissboard/nrf-stlinkv2.cfg
+openocd -f kissboard/firmware/nrf-stlinkv2.cfg
 ```
 Should give you an output ending in:
 ```
@@ -97,7 +97,7 @@ echo reset | telnet localhost 4444
 ## Automatic make and programming scripts
 To use the automatic build scripts:
 ```
-cd kissboard/kissboard-keyboard-basic
+cd kissboard/firmware/kissboard-keyboard-basic
 ./program.sh
 ```
 An openocd session should be running in another terminal, as this script sends commands to it.
