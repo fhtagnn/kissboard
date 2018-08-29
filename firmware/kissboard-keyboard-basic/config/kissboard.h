@@ -102,27 +102,27 @@
 
 #define PIPE_NUMBER 0
 
-#define S01 L_S01
-#define S02 L_S02
+#define S01 L_S05
+#define S02 L_S04
 #define S03 L_S03
-#define S04 L_S04
-#define S05 L_S05
-#define S06 L_S06
-#define S07 L_S07
+#define S04 L_S02
+#define S05 L_S01
+#define S06 L_S10
+#define S07 L_S09
 #define S08 L_S08
-#define S09 L_S09
-#define S10 L_S10
-#define S11 L_S11
-#define S12 L_S12
+#define S09 L_S07
+#define S10 L_S06
+#define S11 L_S15
+#define S12 L_S14
 #define S13 L_S13
-#define S14 L_S14
-#define S15 L_S15
-#define S16 L_S16
-#define S17 L_S17
-#define S18 L_S18
+#define S14 L_S12
+#define S15 L_S11
+#define S16 L_S19
+#define S17 L_S18
+#define S18 L_S17
 #define S19 L_S19
-#define S20 L_S20
-#define S21 L_S21
+#define S20 L_S21
+#define S21 L_S20
 
 
 #define INPUT_MASK L_MASK
@@ -133,27 +133,27 @@
 
 #define PIPE_NUMBER 1
 
-#define S01 R_S01
-#define S02 R_S02
+#define S01 R_S05
+#define S02 R_S04
 #define S03 R_S03
-#define S04 R_S04
-#define S05 R_S05
-#define S06 R_S06
-#define S07 R_S07
+#define S04 R_S02
+#define S05 R_S01
+#define S06 R_S10
+#define S07 R_S09
 #define S08 R_S08
-#define S09 R_S09
-#define S10 R_S10
-#define S11 R_S11
-#define S12 R_S12
+#define S09 R_S07
+#define S10 R_S06
+#define S11 R_S15
+#define S12 R_S14
 #define S13 R_S13
-#define S14 R_S14
-#define S15 R_S15
-#define S16 R_S16
-#define S17 R_S17
-#define S18 R_S18
-#define S19 R_S19
-#define S20 R_S20
-#define S21 R_S21
+#define S14 R_S12
+#define S15 R_S11
+#define S16 R_S19
+#define S17 R_S18
+#define S18 R_S17
+#define S19 R_S16
+#define S20 R_S21
+#define S21 R_S20
 
 #define INPUT_MASK R_MASK
 
