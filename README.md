@@ -1,6 +1,16 @@
 # kissboard
 Hardware and Firmware for the Kissboard keyboard concept by urac/wolf (AdNW user community).
 
+![Kissboard top view](https://github.com/fhtagnn/kissboard/blob/master/schematics/kissboard_top.png)![Kissboard bottom view](https://github.com/fhtagnn/kissboard/blob/master/schematics/kissboard_bottom.png)
+
+[![PUQ Layout](https://github.com/fhtagnn/qmk_firmware/blob/kissboard/keyboards/kissboard/keymaps/puq/puq-layout.png)](http://www.keyboard-layout-editor.com/#/gists/677e3572594a5fb39421fa693f03da17)
+
+Layout explanation
+* Middle label: standard tap output
+* Bottom Label: double tap output
+* Top Label: hold modifier
+* Corner labels: Layers
+
 ## The idea
 The physical key layout is inspired by a 2012 discussion on the german [neo user mailinglist](http://narkive.com/9UhJnT14) about custom keyboards using the [AdNW layout](http://www.adnw.de/). Specifically user urac proposed a minimalistic approach (KISS=keep it stupid simple) simply named [kissboard](https://docs.google.com/document/d/1TQ_BZYoZRW-ZFIaiolPAr9yNul6SBKypeA4ataw5Tz4/edit). Later, AdNW user wolf build a handwired custom board using a modified AdNW variant called PUQ discussed [here](https://groups.google.com/forum/#!topic/adnw/NdMOlERoFa4).
 
