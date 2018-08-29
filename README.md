@@ -23,3 +23,15 @@ The [Kissboard firmware](https://github.com/fhtagnn/mitosis) is a fork of the [O
 ## Build Log
 [Incomplete build log](https://imgur.com/a/pN4dOZB "Imgur Album")
 
+# How to build
+## Hardware
+Source materials using the information in the BOM folder. Wait...build! :D
+
+## Software
+QMK can be build via Docker (below windows call) or per QMK instructions
+
+```docker run -e keymap=default -e keyboard=ergodox_ez --rm -v PATHtoQMK:/qmk:rw edasque/qmk_firmware```
+
+Firmware can be build via Docker (below windows call) or using any arm-gcc build environment. Follow instructions in firmware folder.
+
+```docker run -it -v PATHtoFIRMWARE:/work/kissboard/:rw fhtagnn/kissboard_firmware```
