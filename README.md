@@ -1,9 +1,9 @@
 # kissboard
 Hardware and Firmware for the Kissboard keyboard concept by urac/wolf (AdNW user community).
 
-![Kissboard top view](https://github.com/fhtagnn/kissboard/blob/master/schematics/kissboard_top.png)![Kissboard bottom view](https://github.com/fhtagnn/kissboard/blob/master/schematics/kissboard_bottom.png)
+![Kissboard top view](https://github.com/fhtagnn/kissboard/blob/master/schematics/kissboard_top.png "PCB top view")![Kissboard bottom view](https://github.com/fhtagnn/kissboard/blob/master/schematics/kissboard_bottom.png "PCB bottom view")
 
-[![PUQ Layout](https://github.com/fhtagnn/qmk_firmware/blob/kissboard/keyboards/kissboard/keymaps/puq/puq-layout.png)](http://www.keyboard-layout-editor.com/#/gists/677e3572594a5fb39421fa693f03da17)
+[![PUQ Layout](https://github.com/fhtagnn/qmk_firmware/blob/kissboard/keyboards/kissboard/keymaps/puq/puq-layout.png "PUQ Layout overview")](http://www.keyboard-layout-editor.com/#/gists/677e3572594a5fb39421fa693f03da17)
 
 Layout explanation
 * Middle label: standard tap output
@@ -19,4 +19,7 @@ The PCB design was inspired by the [Mitosis Project](https://imgur.com/a/mwTFj) 
 
 ## Firmware
 The [Kissboard firmware](https://github.com/fhtagnn/mitosis) is a fork of the [Original Mitosis firmware](https://github.com/reversebias/mitosis) modified to reflect the pin connections used in this layout. Also, I use a [QMK Fork](https://github.com/fhtagnn/qmk_firmware) to implement any changes in the layout.
+
+## Build Log
+[Incomplete build log](https://imgur.com/a/pN4dOZB "Imgur Album")
 
