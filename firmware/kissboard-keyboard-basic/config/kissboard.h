@@ -120,7 +120,7 @@
 #define S16 L_S19
 #define S17 L_S18
 #define S18 L_S17
-#define S19 L_S19
+#define S19 L_S16
 #define S20 L_S21
 #define S21 L_S20
 
